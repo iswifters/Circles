@@ -14,7 +14,21 @@ struct ProfileView: View {
             VStack{
                 //pic and stats/
                 HStack{
-                    
+                    Image("n1").resizable().scaledToFill()
+                        .frame(width: 80, height: 80)
+                        .clipShape(Circle())
+                    VStack{
+                        Text("54").font(.subheadline).fontWeight(.semibold)
+                        Text("Posts").font(.footnote)
+                    }
+                    VStack{
+                        Text("10000").font(.subheadline).fontWeight(.semibold)
+                        Text("Followers").font(.footnote)
+                    }
+                    VStack{
+                        Text("324").font(.subheadline).fontWeight(.semibold)
+                        Text("Following").font(.footnote)
+                    }
                 }
                 
                 //name and bio
