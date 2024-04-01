@@ -20,15 +20,15 @@ struct ProfileView: View {
                     VStack{
                         Text("54").font(.subheadline).fontWeight(.semibold)
                         Text("Posts").font(.footnote)
-                    }
+                    }.frame(width:72)
                     VStack{
                         Text("10000").font(.subheadline).fontWeight(.semibold)
                         Text("Followers").font(.footnote)
-                    }
+                    }.frame(width:72)
                     VStack{
                         Text("324").font(.subheadline).fontWeight(.semibold)
                         Text("Following").font(.footnote)
-                    }
+                    }.frame(width:72)
                 }
                 
                 //name and bio
