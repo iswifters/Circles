@@ -11,6 +11,8 @@
 		04F7D6C02BBADC650089C492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7D6BF2BBADC650089C492 /* ContentView.swift */; };
 		04F7D6C22BBADC670089C492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7D6C12BBADC670089C492 /* Assets.xcassets */; };
 		04F7D6C52BBADC670089C492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7D6C42BBADC670089C492 /* Preview Assets.xcassets */; };
+		04F7D6DB2BBAEFC40089C492 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7D6DA2BBAEFC40089C492 /* MainTabView.swift */; };
+		04F7D6DD2BBAF34B0089C492 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7D6DC2BBAF34A0089C492 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		04F7D6BF2BBADC650089C492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04F7D6C12BBADC670089C492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F7D6C42BBADC670089C492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04F7D6DA2BBAEFC40089C492 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		04F7D6DC2BBAF34A0089C492 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,11 @@
 		04F7D6BC2BBADC640089C492 /* Circles */ = {
 			isa = PBXGroup;
 			children = (
-				04F7D6BD2BBADC640089C492 /* CirclesApp.swift */,
+				04F7D6D22BBAE0AB0089C492 /* App */,
+				04F7D6D12BBAE0A60089C492 /* Core */,
+				04F7D6D02BBAE0A20089C492 /* Extensions */,
+				04F7D6CF2BBAE0A00089C492 /* Model */,
+				04F7D6CE2BBAE09D0089C492 /* Services */,
 				04F7D6BF2BBADC650089C492 /* ContentView.swift */,
 				04F7D6C12BBADC670089C492 /* Assets.xcassets */,
 				04F7D6C32BBADC670089C492 /* Preview Content */,
@@ -65,6 +73,100 @@
 				04F7D6C42BBADC670089C492 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04F7D6CE2BBAE09D0089C492 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04F7D6CF2BBAE0A00089C492 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04F7D6D02BBAE0A20089C492 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04F7D6D12BBAE0A60089C492 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04F7D6D92BBAE26A0089C492 /* Authentication */,
+				04F7D6D82BBAE2640089C492 /* Feed */,
+				04F7D6D72BBAE25F0089C492 /* Profile */,
+				04F7D6D62BBAE25C0089C492 /* Root */,
+				04F7D6D52BBAE2580089C492 /* Search */,
+				04F7D6D42BBAE2550089C492 /* TabBar */,
+				04F7D6D32BBAE2520089C492 /* UploadPost */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		04F7D6D22BBAE0AB0089C492 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04F7D6BD2BBADC640089C492 /* CirclesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04F7D6D32BBAE2520089C492 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		04F7D6D42BBAE2550089C492 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				04F7D6DA2BBAEFC40089C492 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		04F7D6D52BBAE2580089C492 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		04F7D6D62BBAE25C0089C492 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		04F7D6D72BBAE25F0089C492 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				04F7D6DC2BBAF34A0089C492 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		04F7D6D82BBAE2640089C492 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		04F7D6D92BBAE26A0089C492 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7D6DD2BBAF34B0089C492 /* ProfileView.swift in Sources */,
 				04F7D6C02BBADC650089C492 /* ContentView.swift in Sources */,
 				04F7D6BE2BBADC650089C492 /* CirclesApp.swift in Sources */,
+				04F7D6DB2BBAEFC40089C492 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
