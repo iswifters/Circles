@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049131732BBBFE98003AFDE4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049131722BBBFE98003AFDE4 /* SearchView.swift */; };
+		049131752BBC0590003AFDE4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049131742BBC0590003AFDE4 /* LoginView.swift */; };
+		049131772BBC0FB7003AFDE4 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049131762BBC0FB7003AFDE4 /* AddEmailView.swift */; };
+		049131792BBC1F84003AFDE4 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049131782BBC1F84003AFDE4 /* TextFieldModifier.swift */; };
+		0491317B2BBC21B3003AFDE4 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491317A2BBC21B3003AFDE4 /* CreateUsernameView.swift */; };
+		0491317D2BBC2514003AFDE4 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491317C2BBC2514003AFDE4 /* CreatePasswordView.swift */; };
+		0491317F2BBC2659003AFDE4 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491317E2BBC2659003AFDE4 /* CompleteSignUpView.swift */; };
+		049131812BBC2C26003AFDE4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049131802BBC2C26003AFDE4 /* User.swift */; };
+		04922F9A2BBC3F5E0081ACEC /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922F992BBC3F5E0081ACEC /* CurrentUserProfileView.swift */; };
+		04922F9C2BBC44570081ACEC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922F9B2BBC44570081ACEC /* Post.swift */; };
+		04922F9E2BBC5D1C0081ACEC /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922F9D2BBC5D1C0081ACEC /* PostGridView.swift */; };
+		04922FA02BBC5FBA0081ACEC /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922F9F2BBC5FBA0081ACEC /* ProfileHeaderView.swift */; };
+		04922FA22BBC62970081ACEC /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922FA12BBC62970081ACEC /* UploadPostView.swift */; };
+		04922FA42BBC66670081ACEC /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04922FA32BBC66670081ACEC /* UploadPostViewModel.swift */; };
+		04B5D1DA2BBB41DD003BD874 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5D1D92BBB41DD003BD874 /* UserStatView.swift */; };
+		04B5D1DC2BBB4DE3003BD874 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5D1DB2BBB4DE3003BD874 /* FeedView.swift */; };
+		04B5D1DE2BBB4DF9003BD874 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5D1DD2BBB4DF9003BD874 /* FeedCell.swift */; };
+		04DB135E2BBCBDC2007CDF78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DB135D2BBCBDC2007CDF78 /* GoogleService-Info.plist */; };
+		04DB13632BBCC300007CDF78 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 04DB13622BBCC300007CDF78 /* SwiftUIFontIcon */; };
+		04DB13662BBCC3C6007CDF78 /* Time in Frameworks */ = {isa = PBXBuildFile; productRef = 04DB13652BBCC3C6007CDF78 /* Time */; };
+		04DB13692BBCCA60007CDF78 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 04DB13682BBCCA60007CDF78 /* FLAnimatedImage */; };
 		04F7D6BE2BBADC650089C492 /* CirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7D6BD2BBADC640089C492 /* CirclesApp.swift */; };
 		04F7D6C02BBADC650089C492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7D6BF2BBADC650089C492 /* ContentView.swift */; };
 		04F7D6C22BBADC670089C492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7D6C12BBADC670089C492 /* Assets.xcassets */; };
 		04F7D6C52BBADC670089C492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7D6C42BBADC670089C492 /* Preview Assets.xcassets */; };
 		04F7D6DB2BBAEFC40089C492 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7D6DA2BBAEFC40089C492 /* MainTabView.swift */; };
 		04F7D6DD2BBAF34B0089C492 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7D6DC2BBAF34A0089C492 /* ProfileView.swift */; };
+		D35690E7D58CB66D281CEE5A /* Pods_Circles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D9B97B5219C590E1E5F9BF /* Pods_Circles.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049131722BBBFE98003AFDE4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		049131742BBC0590003AFDE4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		049131762BBC0FB7003AFDE4 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		049131782BBC1F84003AFDE4 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		0491317A2BBC21B3003AFDE4 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		0491317C2BBC2514003AFDE4 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		0491317E2BBC2659003AFDE4 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		049131802BBC2C26003AFDE4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		04922F992BBC3F5E0081ACEC /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		04922F9B2BBC44570081ACEC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		04922F9D2BBC5D1C0081ACEC /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		04922F9F2BBC5FBA0081ACEC /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		04922FA12BBC62970081ACEC /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		04922FA32BBC66670081ACEC /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
+		04B5D1D92BBB41DD003BD874 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		04B5D1DB2BBB4DE3003BD874 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		04B5D1DD2BBB4DF9003BD874 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		04DB135D2BBCBDC2007CDF78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		04F7D6BA2BBADC640089C492 /* Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7D6BD2BBADC640089C492 /* CirclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesApp.swift; sourceTree = "<group>"; };
 		04F7D6BF2BBADC650089C492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +63,9 @@
 		04F7D6C42BBADC670089C492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04F7D6DA2BBAEFC40089C492 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		04F7D6DC2BBAF34A0089C492 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		26B67940CA8437D903371836 /* Pods-Circles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circles.debug.xcconfig"; path = "Target Support Files/Pods-Circles/Pods-Circles.debug.xcconfig"; sourceTree = "<group>"; };
+		59D9B97B5219C590E1E5F9BF /* Pods_Circles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Circles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		849759581D74EBD8490D9F17 /* Pods-Circles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circles.release.xcconfig"; path = "Target Support Files/Pods-Circles/Pods-Circles.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +73,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DB13692BBCCA60007CDF78 /* FLAnimatedImage in Frameworks */,
+				04DB13632BBCC300007CDF78 /* SwiftUIFontIcon in Frameworks */,
+				04DB13662BBCC3C6007CDF78 /* Time in Frameworks */,
+				D35690E7D58CB66D281CEE5A /* Pods_Circles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B5D1D82BBB41BA003BD874 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04B5D1D92BBB41DD003BD874 /* UserStatView.swift */,
+				049131782BBC1F84003AFDE4 /* TextFieldModifier.swift */,
+				04922F9D2BBC5D1C0081ACEC /* PostGridView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		04BF08B62BBD638400F5893E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04F7D6B12BBADC640089C492 = {
 			isa = PBXGroup;
 			children = (
 				04F7D6BC2BBADC640089C492 /* Circles */,
 				04F7D6BB2BBADC640089C492 /* Products */,
+				CD0BB010692C6BCA8BF3D364 /* Pods */,
+				D9E620419CAEF6FFB0904F45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +128,7 @@
 				04F7D6CE2BBAE09D0089C492 /* Services */,
 				04F7D6BF2BBADC650089C492 /* ContentView.swift */,
 				04F7D6C12BBADC670089C492 /* Assets.xcassets */,
+				04DB135D2BBCBDC2007CDF78 /* GoogleService-Info.plist */,
 				04F7D6C32BBADC670089C492 /* Preview Content */,
 			);
 			path = Circles;
@@ -85,6 +152,8 @@
 		04F7D6CF2BBAE0A00089C492 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				049131802BBC2C26003AFDE4 /* User.swift */,
+				04922F9B2BBC44570081ACEC /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +168,7 @@
 		04F7D6D12BBAE0A60089C492 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				04B5D1D82BBB41BA003BD874 /* Components */,
 				04F7D6D92BBAE26A0089C492 /* Authentication */,
 				04F7D6D82BBAE2640089C492 /* Feed */,
 				04F7D6D72BBAE25F0089C492 /* Profile */,
@@ -121,6 +191,8 @@
 		04F7D6D32BBAE2520089C492 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				04922FA12BBC62970081ACEC /* UploadPostView.swift */,
+				04922FA32BBC66670081ACEC /* UploadPostViewModel.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -136,6 +208,7 @@
 		04F7D6D52BBAE2580089C492 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				049131722BBBFE98003AFDE4 /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -151,6 +224,8 @@
 			isa = PBXGroup;
 			children = (
 				04F7D6DC2BBAF34A0089C492 /* ProfileView.swift */,
+				04922F992BBC3F5E0081ACEC /* CurrentUserProfileView.swift */,
+				04922F9F2BBC5FBA0081ACEC /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -158,6 +233,8 @@
 		04F7D6D82BBAE2640089C492 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				04B5D1DB2BBB4DE3003BD874 /* FeedView.swift */,
+				04B5D1DD2BBB4DF9003BD874 /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -165,8 +242,31 @@
 		04F7D6D92BBAE26A0089C492 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				04BF08B62BBD638400F5893E /* View */,
+				049131742BBC0590003AFDE4 /* LoginView.swift */,
+				049131762BBC0FB7003AFDE4 /* AddEmailView.swift */,
+				0491317A2BBC21B3003AFDE4 /* CreateUsernameView.swift */,
+				0491317C2BBC2514003AFDE4 /* CreatePasswordView.swift */,
+				0491317E2BBC2659003AFDE4 /* CompleteSignUpView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CD0BB010692C6BCA8BF3D364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B67940CA8437D903371836 /* Pods-Circles.debug.xcconfig */,
+				849759581D74EBD8490D9F17 /* Pods-Circles.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9E620419CAEF6FFB0904F45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59D9B97B5219C590E1E5F9BF /* Pods_Circles.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,15 +276,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F7D6C82BBADC670089C492 /* Build configuration list for PBXNativeTarget "Circles" */;
 			buildPhases = (
+				43BDA52E6C3C9231EC742D0C /* [CP] Check Pods Manifest.lock */,
 				04F7D6B62BBADC640089C492 /* Sources */,
 				04F7D6B72BBADC640089C492 /* Frameworks */,
 				04F7D6B82BBADC640089C492 /* Resources */,
+				3C1476000C19A2DEE76CAF92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Circles;
+			packageProductDependencies = (
+				04DB13622BBCC300007CDF78 /* SwiftUIFontIcon */,
+				04DB13652BBCC3C6007CDF78 /* Time */,
+				04DB13682BBCCA60007CDF78 /* FLAnimatedImage */,
+			);
 			productName = Circles;
 			productReference = 04F7D6BA2BBADC640089C492 /* Circles.app */;
 			productType = "com.apple.product-type.application";
@@ -213,6 +320,11 @@
 				Base,
 			);
 			mainGroup = 04F7D6B12BBADC640089C492;
+			packageReferences = (
+				04DB13612BBCC300007CDF78 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				04DB13642BBCC3C6007CDF78 /* XCRemoteSwiftPackageReference "time" */,
+				04DB13672BBCCA60007CDF78 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = 04F7D6BB2BBADC640089C492 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,20 +341,80 @@
 			files = (
 				04F7D6C52BBADC670089C492 /* Preview Assets.xcassets in Resources */,
 				04F7D6C22BBADC670089C492 /* Assets.xcassets in Resources */,
+				04DB135E2BBCBDC2007CDF78 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C1476000C19A2DEE76CAF92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Circles/Pods-Circles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Circles/Pods-Circles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Circles/Pods-Circles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43BDA52E6C3C9231EC742D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Circles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04F7D6B62BBADC640089C492 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B5D1DE2BBB4DF9003BD874 /* FeedCell.swift in Sources */,
+				04922FA22BBC62970081ACEC /* UploadPostView.swift in Sources */,
 				04F7D6DD2BBAF34B0089C492 /* ProfileView.swift in Sources */,
 				04F7D6C02BBADC650089C492 /* ContentView.swift in Sources */,
+				049131752BBC0590003AFDE4 /* LoginView.swift in Sources */,
+				04922F9C2BBC44570081ACEC /* Post.swift in Sources */,
 				04F7D6BE2BBADC650089C492 /* CirclesApp.swift in Sources */,
+				04922F9A2BBC3F5E0081ACEC /* CurrentUserProfileView.swift in Sources */,
+				049131772BBC0FB7003AFDE4 /* AddEmailView.swift in Sources */,
+				04922F9E2BBC5D1C0081ACEC /* PostGridView.swift in Sources */,
+				0491317B2BBC21B3003AFDE4 /* CreateUsernameView.swift in Sources */,
+				04922FA42BBC66670081ACEC /* UploadPostViewModel.swift in Sources */,
+				04922FA02BBC5FBA0081ACEC /* ProfileHeaderView.swift in Sources */,
+				0491317F2BBC2659003AFDE4 /* CompleteSignUpView.swift in Sources */,
+				049131812BBC2C26003AFDE4 /* User.swift in Sources */,
+				049131732BBBFE98003AFDE4 /* SearchView.swift in Sources */,
+				04B5D1DA2BBB41DD003BD874 /* UserStatView.swift in Sources */,
+				04B5D1DC2BBB4DE3003BD874 /* FeedView.swift in Sources */,
+				049131792BBC1F84003AFDE4 /* TextFieldModifier.swift in Sources */,
 				04F7D6DB2BBAEFC40089C492 /* MainTabView.swift in Sources */,
+				0491317D2BBC2514003AFDE4 /* CreatePasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +537,7 @@
 		};
 		04F7D6C92BBADC670089C492 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B67940CA8437D903371836 /* Pods-Circles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,6 +566,7 @@
 		};
 		04F7D6CA2BBADC670089C492 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849759581D74EBD8490D9F17 /* Pods-Circles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +615,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04DB13612BBCC300007CDF78 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		04DB13642BBCC3C6007CDF78 /* XCRemoteSwiftPackageReference "time" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davedelong/time.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		04DB13672BBCCA60007CDF78 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04DB13622BBCC300007CDF78 /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04DB13612BBCC300007CDF78 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		04DB13652BBCC3C6007CDF78 /* Time */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04DB13642BBCC3C6007CDF78 /* XCRemoteSwiftPackageReference "time" */;
+			productName = Time;
+		};
+		04DB13682BBCCA60007CDF78 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04DB13672BBCCA60007CDF78 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04F7D6B22BBADC640089C492 /* Project object */;
 }
